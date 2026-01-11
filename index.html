@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Block Quest - Legal</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            max-width: 500px;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 24px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+            text-align: center;
+        }
+        .logo {
+            font-size: 64px;
+            margin-bottom: 16px;
+        }
+        h1 {
+            color: #6B46C1;
+            margin-bottom: 8px;
+            font-size: 1.8rem;
+        }
+        .tagline {
+            color: #666;
+            margin-bottom: 32px;
+            font-size: 0.95rem;
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .link-group {
+            display: flex;
+            gap: 8px;
+        }
+        .link {
+            flex: 1;
+            display: block;
+            padding: 16px 20px;
+            background: linear-gradient(135deg, #6B46C1, #805AD5);
+            color: white;
+            text-decoration: none;
+            border-radius: 12px;
+            font-weight: 600;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(107, 70, 193, 0.4);
+        }
+        .link.secondary {
+            background: linear-gradient(135deg, #4A5568, #718096);
+        }
+        .link.secondary:hover {
+            box-shadow: 0 8px 20px rgba(74, 85, 104, 0.4);
+        }
+        .lang-label {
+            font-size: 0.75rem;
+            opacity: 0.8;
+            display: block;
+            margin-top: 4px;
+        }
+        .footer {
+            margin-top: 32px;
+            color: #999;
+            font-size: 0.8rem;
+        }
+        @media (max-width: 480px) {
+            .link-group {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="logo">🎮</div>
+            <h1>Anime Block Quest</h1>
+            <p class="tagline">Block Puzzle Game with Anime Theme</p>
+
+            <div class="links">
+                <div class="link-group">
+                    <a href="privacy-policy.html" class="link">
+                        Politica de Privacidade
+                        <span class="lang-label">Portugues</span>
+                    </a>
+                    <a href="privacy-policy-en.html" class="link secondary">
+                        Privacy Policy
+                        <span class="lang-label">English</span>
+                    </a>
+                </div>
+
+                <div class="link-group">
+                    <a href="terms-of-service.html" class="link">
+                        Termos de Servico
+                        <span class="lang-label">Portugues</span>
+                    </a>
+                    <a href="terms-of-service-en.html" class="link secondary">
+                        Terms of Service
+                        <span class="lang-label">English</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer">
+                <p>© 2026 Anime Block Quest</p>
+                <p>animeblockquest@gmail.com</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
